@@ -11,7 +11,7 @@ function DogBreedImages (props) {
         <Link to="/">Go Back to the index</Link>
             <div>
                 { images && images.map(url => <img key={url}src={ url } alt="Dog" />) }
-                { images && 'Loading...' }
+                { !images && 'Loading...' }
             </div>
         </div>
     )
