@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import DogsListContainer from './components/DogsListContainer'
 import { Route } from 'react-router-dom'
 import DogBreedImages from './components/DogBreedImages'
+import DogBreedImagesContainer from './components/DogBreedImagesContainer'
 import './App.css';
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="App">
         <main>
           <Route exact path="/" component={DogsListContainer} />
-          <Route path="/dog-breeds/:breed" component={DogBreedImages} />
+          <Route path="/dog-breeds/:breed" component={DogBreedImagesContainer}/>
         </main>
       </div>
     );
