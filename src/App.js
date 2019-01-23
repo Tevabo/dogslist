@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import DogsListContainer from './components/DogsListContainer'
 import { Route } from 'react-router-dom'
-import DogBreedImages from './components/DogBreedImages'
+// import DogBreedImages from './components/DogBreedImages'
 import DogBreedImagesContainer from './components/DogBreedImagesContainer'
 import './App.css';
 
